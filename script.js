@@ -68,7 +68,7 @@ axios.get('https://jsonplaceholder.typicode.com/users/')
       
     });
 
-    //table.innerHTML += HTML;
+    table.innerHTML += HTML;
   })
   .catch(function (error) {
     // handle error

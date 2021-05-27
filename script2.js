@@ -1,9 +1,7 @@
-// Make a request for a user with a given ID
-renderTable('https://jsonplaceholder.typicode.com/users/', 'stalas');
 
-function renderTable(url, id) {
-    
+renderTable('https://jsonplaceholder.typicode.com/users/', 'stalas', ["table,ol,ul"]);
 
+function renderTable(url, id, order) {
 
 axios.get(url)
   .then(function (response) {
